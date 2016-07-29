@@ -1,0 +1,16 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "devDependencies": {
+    "cucumber": "0.10.4",
+    "protractor": "^3.1.1",
+    "protractor-cucumber-framework": "^0.6.0"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0"
+  },
+  "scripts": {
+    "postinstall": "node_modules/protractor/bin/webdriver-manager update"
+  }
+}
