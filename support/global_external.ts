@@ -1,6 +1,7 @@
 var chai = require("chai");
 var chaiAsPromised = require("chai-as-promised");
 EC = protractor.ExpectedConditions;
+
 chai.use(chaiAsPromised);
 expect = chai.expect;
 assert = chai.assert;
@@ -9,4 +10,3 @@ Object.defineProperty(protractor.promise.Promise.prototype, 'should', {
     get: Object.prototype.__lookupGetter__('should'),
     set: Object.prototype.__lookupSetter__('should')
 });
-//# sourceMappingURL=global_external.js.map

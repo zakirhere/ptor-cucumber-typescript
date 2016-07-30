@@ -4,5 +4,5 @@
 var configure = function () {
     this.setDefaultTimeout(6000 * 1000);
 };
+
 module.exports = configure;
-//# sourceMappingURL=env.js.map
